@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">QuizAppForUdacity</string>
+    <string name="button_text_next">NEXT</string>
+    <string name="saved_quiz_score">QUIZ_SCORE</string>
+
+    <!--First page of quiz-->
+    <string name="movie_choice1_titanic">Titanic</string>
+    <string name="movie_choice2_inception">Inception</string>
+    <string name="movie_choice3_shooter_island">Shooter Island</string>
+    <string name="movie_choice4_gatsby">Gatsby</string>
+
+    <!--Second page of quiz-->
+    <string name="movie_1_la_la_land">La La Land</string>
+    <string name="movie_2_notebook">Notebook</string>
+    <string name="movie_3_crazy_stupid_love">Crazy, Stupid, Love</string>
+    <string name="movie_4_definitely_maybe">Definitely, Maybe</string>
+
+    <!--Third page of quiz-->
+    <string name="movie_1_live_and_let_die">Live and Let Die</string>
+    <string name="movie_2_The_Man_with_the_golden_gun">The Man with the Golden Gun</string>
+    <string name="movie_3_The_Spy_Who_Loved_Me">The Spy Who Loved Me</string>
+    <string name="movie_4_Moonraker">Moonraker</string>
+
+    <!--Forth page of quiz-->
+    <string name="movie_1_star_wars_4">Star Wars IV</string>
+    <string name="movie_2_star_wars_5">Star Wars V</string>
+    <string name="movie_3_star_wars_6">Star Wars VI</string>
+    <string name="movie_4_star_wars_7">Star Wars VII</string>
+
+    <!--Fifth page of quiz-->
+    <string name="movie_1_one_flew_over">One Flew Over the Cuckoo\'s Nest</string>
+    <string name="movie_2_postman_always_rings_twice">The Postman Always Rings Twice</string>
+    <string name="movie_3_the_border">The Border</string>
+    <string name="movie_4_the_shining">The Shining</string>
+
+    <!--Sixth page of quiz-->
+    <string name="movie_1_batman">Batman</string>
+    <string name="movie_2_batman_returns">Batman Returns</string>
+    <string name="movie_3_batman_begins">Batman Begins</string>
+    <string name="movie_4_dark_knight">The Dark Knight</string>
+</resources>
