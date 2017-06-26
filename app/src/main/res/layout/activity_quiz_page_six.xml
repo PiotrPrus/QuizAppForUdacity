@@ -8,17 +8,17 @@
 
     <ImageView
         android:id="@+id/image_page_1"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        android:layout_marginEnd="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:src="@drawable/dark_knight_joker_image"
-        tools:layout_editor_absoluteY="43dp"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginStart="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
         android:layout_marginBottom="45dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/dark_knight_joker_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="16dp" />
+        tools:layout_editor_absoluteY="43dp" />
 
     <LinearLayout
         android:layout_width="match_parent"

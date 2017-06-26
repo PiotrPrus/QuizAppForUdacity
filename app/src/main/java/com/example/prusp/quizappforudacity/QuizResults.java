@@ -24,6 +24,7 @@ public class QuizResults extends AppCompatActivity {
 
     private void updateQuizScore() {
         TextView resultsTextView = (TextView) findViewById(R.id.results_text_view);
-        resultsTextView.setText(String.valueOf(quizScore));
+        String result = (String.valueOf(quizScore)+"/6");
+        resultsTextView.setText(result);
     }
 }

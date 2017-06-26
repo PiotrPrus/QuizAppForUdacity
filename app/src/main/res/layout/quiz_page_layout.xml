@@ -8,17 +8,16 @@
 
     <ImageView
         android:id="@+id/image_page_1"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        android:layout_marginEnd="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
         android:src="@drawable/inception_leonardo_image"
-        tools:layout_editor_absoluteY="43dp"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginStart="16dp"
-        android:layout_marginBottom="45dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:layout_marginTop="48dp"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="16dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout" />
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="100dp"
@@ -30,10 +29,11 @@
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent"
     android:layout_marginBottom="28dp"
-    app:layout_constraintBottom_toTopOf="@+id/button">
+    app:layout_constraintBottom_toTopOf="@+id/button"
+    android:id="@+id/linearLayout">
     <RadioGroup
         android:layout_width="0dp"
-        android:layout_weight="1"
+        android:layout_weight="2"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:id="@+id/radio_group1">
@@ -52,7 +52,7 @@
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_weight="1"
+        android:layout_weight="3"
         android:id="@+id/radio_group2">
 
             <RadioButton

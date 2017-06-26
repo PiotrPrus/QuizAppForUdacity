@@ -38,4 +38,8 @@
     <string name="movie_2_batman_returns">Batman Returns</string>
     <string name="movie_3_batman_begins">Batman Begins</string>
     <string name="movie_4_dark_knight">The Dark Knight</string>
+    <string name="let_s_start">LET\'S START</string>
+    <string name="welcome_text">Welcome to     The Movie Frame Quiz!</string>
+    <string name="your_result_is">Your result is</string>
+    <string name="quiz_description">Select the name of the movie from which the movie frame is shown.</string>
 </resources>
