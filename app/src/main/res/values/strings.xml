@@ -42,4 +42,8 @@
     <string name="welcome_text">Welcome to     The Movie Frame Quiz!</string>
     <string name="your_result_is">Your result is</string>
     <string name="quiz_description">Select the name of the movie from which the movie frame is shown.</string>
+    <string name="toast_text_for_score_6">Great job! Your score is 6/6. AWESOME!</string>
+    <string name="toast_text_for_score_5">Almost every answer is correct. You score 5!</string>
+    <string name="toast_text_for_score_less_than_5">You should watch more movies. You score</string>
+    <string name="out_of_6">/6</string>
 </resources>
