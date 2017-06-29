@@ -4,10 +4,9 @@
     <string name="saved_quiz_score">QUIZ_SCORE</string>
 
     <!--First page of quiz-->
-    <string name="movie_choice1_titanic">Titanic</string>
-    <string name="movie_choice2_inception">Inception</string>
-    <string name="movie_choice3_shooter_island">Shooter Island</string>
-    <string name="movie_choice4_gatsby">Gatsby</string>
+    <string name="type_the_title">Name the movie from which the frame came from.</string>
+    <string name="edit_text_hint">Type the title</string>
+
 
     <!--Second page of quiz-->
     <string name="movie_1_la_la_land">La La Land</string>
@@ -22,10 +21,11 @@
     <string name="movie_4_Moonraker">Moonraker</string>
 
     <!--Forth page of quiz-->
-    <string name="movie_1_star_wars_4">Star Wars IV</string>
-    <string name="movie_2_star_wars_5">Star Wars V</string>
-    <string name="movie_3_star_wars_6">Star Wars VI</string>
-    <string name="movie_4_star_wars_7">Star Wars VII</string>
+    <string name="mark_hamill">Mark Hamill</string>
+    <string name="harrison_ford">Harrison Ford</string>
+    <string name="carrie_fisher">Carrie Fisher</string>
+    <string name="david_prowse">David Prowse</string>
+
 
     <!--Fifth page of quiz-->
     <string name="movie_1_one_flew_over">One Flew Over the Cuckoo\'s Nest</string>
@@ -38,12 +38,14 @@
     <string name="movie_2_batman_returns">Batman Returns</string>
     <string name="movie_3_batman_begins">Batman Begins</string>
     <string name="movie_4_dark_knight">The Dark Knight</string>
+
+    <!--Other strings-->
     <string name="let_s_start">LET\'S START</string>
     <string name="welcome_text">Welcome to     The Movie Frame Quiz!</string>
     <string name="your_result_is">Your result is</string>
     <string name="quiz_description">Select the name of the movie from which the movie frame is shown.</string>
     <string name="toast_text_for_score_6">Great job! Your score is 6/6. AWESOME!</string>
     <string name="toast_text_for_score_5">Almost every answer is correct. You score 5!</string>
-    <string name="toast_text_for_score_less_than_5">You should watch more movies. You score</string>
+    <string name="toast_text_for_score_less_than_5">You should watch more movies. You score </string>
     <string name="out_of_6">/6</string>
 </resources>
