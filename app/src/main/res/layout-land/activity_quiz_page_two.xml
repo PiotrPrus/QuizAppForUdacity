@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image_page_1"
+        android:layout_width="333dp"
+        android:layout_height="200dp"
+        android:src="@drawable/la_la_land_gosling_image"
+        tools:layout_editor_absoluteY="16dp"
+        tools:layout_editor_absoluteX="19dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="16dp" />
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="7dp"
+        tools:layout_editor_absoluteX="342dp"
+        android:id="@+id/linearLayout2"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="24dp"
+        app:layout_constraintStart_toEndOf="@+id/image_page_1"
+        app:layout_constraintEnd_toEndOf="parent">
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/radio_group1">
+
+            <RadioButton
+                android:id="@+id/radio_button_1"
+                style="@style/RadioButtonCustomStyle"
+                android:text="@string/movie_1_la_la_land" />
+
+            <RadioButton
+                android:id="@+id/radio_button_2"
+                style="@style/RadioButtonCustomStyle"
+                android:text="@string/movie_2_notebook" />
+        </RadioGroup>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/radio_group2">
+
+            <RadioButton
+                android:id="@+id/radio_button_3"
+                style="@style/RadioButtonCustomStyle"
+                android:text="@string/movie_3_crazy_stupid_love" />
+
+            <RadioButton
+                android:id="@+id/radio_button_4"
+                style="@style/RadioButtonCustomStyle"
+                android:text="@string/movie_4_definitely_maybe" />
+        </RadioGroup>
+    </LinearLayout>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:onClick="goToPageThree"
+        android:text="@string/button_text_next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="252dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="252dp"
+        android:layout_marginEnd="252dp"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image_page_1"
+        android:layout_width="333dp"
+        android:layout_height="200dp"
+        android:src="@drawable/shining_jack_image"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout"
+        android:layout_marginEnd="26dp" />
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="347dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toEndOf="@+id/image_page_1"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="8dp"
+        android:id="@+id/linearLayout">
+
+        <RadioGroup
+            android:id="@+id/radio_group1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_button_1"
+                style="@style/RadioButtonCustomStyle"
+                android:text="@string/movie_1_one_flew_over" />
+
+            <RadioButton
+                android:id="@+id/radio_button_2"
+                style="@style/RadioButtonCustomStyle"
+                android:text="@string/movie_2_postman_always_rings_twice" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/radio_group2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_button_3"
+                style="@style/RadioButtonCustomStyle"
+                android:text="@string/movie_3_the_border" />
+
+            <RadioButton
+                android:id="@+id/radio_button_4"
+                style="@style/RadioButtonCustomStyle"
+                android:text="@string/movie_4_the_shining" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:onClick="goToPageSixth"
+        android:text="@string/button_text_next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="252dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="252dp"
+        android:layout_marginEnd="252dp"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
