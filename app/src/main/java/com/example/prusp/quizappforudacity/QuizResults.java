@@ -36,7 +36,7 @@ public class QuizResults extends AppCompatActivity {
         } else if (quizScore == 5) {
             Toast.makeText(this, R.string.toast_text_for_score_5, Toast.LENGTH_LONG).show();
         } else {
-            String stringForToast = getString(R.string.toast_text_for_score_less_than_5) + quizScore + getString(R.string.out_of_6);
+            String stringForToast = getString(R.string.toast_text_for_score_less_than_5) +" "+ quizScore + getString(R.string.out_of_6);
             Toast.makeText(this, stringForToast, Toast.LENGTH_LONG).show();
         }
     }
