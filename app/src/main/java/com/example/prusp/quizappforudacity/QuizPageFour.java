@@ -50,7 +50,8 @@ public class QuizPageFour extends AppCompatActivity {
     }
 
     private boolean isProperAnswerSelected() {
-        return (checkBox1.isChecked() && checkBox4.isChecked());
+        return (checkBox1.isChecked() && !checkBox2.isChecked()
+                && !checkBox3.isChecked() && checkBox4.isChecked());
     }
 }
 
